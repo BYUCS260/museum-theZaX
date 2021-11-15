@@ -118,6 +118,7 @@ export default {
       } catch (error) {
         console.log(error);
       }
+
       this.getItems();
     },
     async editItem(item) {
